@@ -32,5 +32,5 @@ for j in range(n):
             break
 
 if n == 1:
-    result = 1
+    result = 2
 print(result)
