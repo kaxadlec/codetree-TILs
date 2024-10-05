@@ -31,5 +31,6 @@ for j in range(n):
             result += 1
             break
 
-
+if n == 1:
+    result = 1
 print(result)
