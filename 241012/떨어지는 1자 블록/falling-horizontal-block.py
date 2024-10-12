@@ -5,7 +5,7 @@ falling_block = [0]*n
 for j in range(k-1, k-1+m):
     falling_block[j] = 1
 
-stop_i = 0
+stop_i = n-1
 for i in range(1, n):
     stop_flag = 0
     for j in range(n):
